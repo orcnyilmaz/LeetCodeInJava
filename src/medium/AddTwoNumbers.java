@@ -1,10 +1,12 @@
-package easy;
+package medium;
+
+import java.util.List;
 
 public class AddTwoNumbers {
 
 
     // Definition for singly-linked list.
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
         ListNode() {}
@@ -15,12 +17,26 @@ public class AddTwoNumbers {
 
     // https://leetcode.com/problems/add-two-numbers/
     public static void main(String[] args) {
+        ListNode node1 = new ListNode(2);
+        ListNode node11 = new ListNode(4);
+        ListNode node111 = new ListNode(3);
 
+        node1.next = node11;
+        node11.next = node111;
+
+        ListNode node2 = new ListNode(5);
+        ListNode node22 = new ListNode(6);
+        ListNode node222 = new ListNode(4);
+
+        node2.next = node22;
+        node22.next = node222;
+
+        addTwoNumbers(node1, node2);
     }
 
     // 2 -> 4 -> 3
     // 5 -> 6 -> 4
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode resultNode = new ListNode(0);
         ListNode tempNode = resultNode;
         int carry = 0;
