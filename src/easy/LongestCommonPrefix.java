@@ -5,6 +5,7 @@ import java.util.Optional;
 
 public class LongestCommonPrefix {
 
+    // https://leetcode.com/problems/longest-common-prefix/
     public static void main(String[] args) {
         String[] words = new String[] { "flower","flow","flight" };
         System.out.println(longestCommonPrefix(words));

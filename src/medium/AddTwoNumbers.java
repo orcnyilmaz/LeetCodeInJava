@@ -1,20 +1,8 @@
 package medium;
 
-import java.util.List;
+import generics.ListNode;
 
 public class AddTwoNumbers {
-
-
-    // Definition for singly-linked list.
-    public static class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-    }
-
-
     // https://leetcode.com/problems/add-two-numbers/
     public static void main(String[] args) {
         ListNode node1 = new ListNode(2);
