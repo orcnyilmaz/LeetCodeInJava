@@ -1,7 +1,6 @@
 package easy;
 
 import generics.ListNode;
-import java.util.Objects;
 
 public class MergeTwoSortedLists {
 
