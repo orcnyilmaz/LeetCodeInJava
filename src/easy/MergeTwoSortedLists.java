@@ -1,6 +1,6 @@
 package easy;
 
-import generics.ListNode;
+import util.ListNode;
 
 public class MergeTwoSortedLists {
 

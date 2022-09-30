@@ -1,6 +1,6 @@
 package medium;
 
-import generics.ListNode;
+import util.ListNode;
 
 public class AddTwoNumbers {
     // https://leetcode.com/problems/add-two-numbers/

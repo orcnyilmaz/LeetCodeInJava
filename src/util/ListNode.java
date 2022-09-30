@@ -1,4 +1,4 @@
-package generics;
+package util;
 
 //Definition for singly-linked list.
 public class ListNode {
