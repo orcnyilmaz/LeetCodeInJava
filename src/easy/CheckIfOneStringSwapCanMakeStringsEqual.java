@@ -4,13 +4,13 @@ public class CheckIfOneStringSwapCanMakeStringsEqual {
 
     // https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/
     public static void main(String[] args) {
-        //System.out.println(areAlmostEqual("bank", "kanb")); // true
-        //System.out.println(areAlmostEqual("attack", "defend")); // false
-        //System.out.println(areAlmostEqual("kelb", "kelb")); // true
-        //System.out.println(areAlmostEqual("aa", "ac")); // false
-        //System.out.println(areAlmostEqual("caa", "aaz")); //false
-        //System.out.println(areAlmostEqual("abca", "abcc")); //false
-        //System.out.println(areAlmostEqual("bankb", "kannb")); //false
+        System.out.println(areAlmostEqual("bank", "kanb")); // true
+        System.out.println(areAlmostEqual("attack", "defend")); // false
+        System.out.println(areAlmostEqual("kelb", "kelb")); // true
+        System.out.println(areAlmostEqual("aa", "ac")); // false
+        System.out.println(areAlmostEqual("caa", "aaz")); //false
+        System.out.println(areAlmostEqual("abca", "abcc")); //false
+        System.out.println(areAlmostEqual("bankb", "kannb")); //false
         System.out.println(areAlmostEqual("bf", "dd")); //false
     }
 
