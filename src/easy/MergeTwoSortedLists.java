@@ -2,6 +2,8 @@ package easy;
 
 import util.ListNode;
 
+import static util.ListNode.generateListNode;
+
 public class MergeTwoSortedLists {
 
     // https://leetcode.com/problems/merge-two-sorted-lists/
@@ -42,20 +44,6 @@ public class MergeTwoSortedLists {
         }
 
         return head.next;
-    }
-
-    public static ListNode generateListNode(int[] nums) {
-        ListNode node1 = new ListNode();
-        ListNode nodeTemp = new ListNode(nums[0]);
-
-        node1.next = nodeTemp;
-
-        for (int i = 1; i < nums.length; i++) {
-            nodeTemp.next = new ListNode(nums[i]);
-            nodeTemp = nodeTemp.next;
-        }
-
-        return node1.next;
     }
 }
 
