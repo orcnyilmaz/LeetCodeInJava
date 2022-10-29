@@ -2,7 +2,7 @@ package easy;
 
 import util.ListNode;
 
-import static util.ListNode.generateListNode;
+import static util.ListNode.generateListNodes;
 
 public class MergeTwoSortedLists {
 
@@ -11,8 +11,8 @@ public class MergeTwoSortedLists {
     public static void main(String[] args) {
         int[] nums1 = new int[] {1,2,4};
         int[] nums2 = new int[] {1,3,4};
-        ListNode node1 = generateListNode(nums1);
-        ListNode node2 = generateListNode(nums2);
+        ListNode node1 = generateListNodes(nums1);
+        ListNode node2 = generateListNodes(nums2);
 
         ListNode resultNode = mergeTwoLists(node1, node2);
     }

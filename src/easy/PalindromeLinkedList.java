@@ -2,7 +2,7 @@ package easy;
 
 import util.ListNode;
 
-import static util.ListNode.generateListNode;
+import static util.ListNode.generateListNodes;
 import static util.ListNode.reverse;
 
 public class PalindromeLinkedList {
@@ -10,9 +10,9 @@ public class PalindromeLinkedList {
     // https://leetcode.com/problems/palindrome-linked-list/
     public static void main(String[] args) {
         int[] nums1 = new int[] {1,2,2,1};
-        System.out.println(isPalindrome(generateListNode(nums1)));
+        System.out.println(isPalindrome(generateListNodes(nums1)));
         int[] nums2 = new int[] {1,2};
-        System.out.println(isPalindrome(generateListNode(nums2)));
+        System.out.println(isPalindrome(generateListNodes(nums2)));
     }
 
     public static boolean isPalindrome(ListNode head) {

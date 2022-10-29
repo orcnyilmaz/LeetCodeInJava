@@ -17,7 +17,7 @@ public class ListNode {
         this.next = next;
     }
 
-    public static ListNode generateListNode(int[] nums) {
+    public static ListNode generateListNodes(int[] nums) {
         ListNode node1 = new ListNode();
         ListNode nodeTemp = new ListNode(nums[0]);
 
