@@ -23,7 +23,8 @@ public class ClimbingStairs {
     }*/
 
     // 0 - 1 - 1 - 2 - 3 - 5 - 8 - 13 - 21...
-    /*public static int climbStairs(int n) {
+    /*
+    public static int climbStairs(int n) {
         if (n <= 2) {
             return n;
         }
